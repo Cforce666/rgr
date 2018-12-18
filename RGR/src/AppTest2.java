@@ -1,6 +1,4 @@
-
 import org.junit.*;
-
 
 public class AppTest2 {
 	
@@ -13,7 +11,7 @@ public class AppTest2 {
 
     @Test
     public void testApp(){
-        Assert.assertEquals(25,  api.calcArea(5, 5));
+        Assert.assertEquals(448,  api.calcArea(32, 14));
         
     }
 }
