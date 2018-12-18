@@ -17,10 +17,10 @@ public class App implements ActionListener{
 		JFrame frame=new JFrame();//creating instance of JFrame  
 		frame.setTitle("App");
         
-		mult=new JButton("Ðàññ÷¸ò");//creating instance of JButton  
+		mult=new JButton("Calculate");//creating instance of JButton  
 		param1=new JTextField();
 		param2=new JTextField();
-		res=new JLabel("Ðåçóëüòàò:");
+		res=new JLabel("Answer:");
 		res2=new JLabel();
 		
 		param1.setBounds(50, 100, 70, 30);
