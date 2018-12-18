@@ -1,12 +1,9 @@
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-
 
 public class App implements ActionListener{
 	
@@ -20,10 +17,10 @@ public class App implements ActionListener{
 		JFrame frame=new JFrame();//creating instance of JFrame  
 		frame.setTitle("App");
         
-		mult=new JButton("Ðàññ÷¸ò");//creating instance of JButton  
+		mult=new JButton("Calculate");//creating instance of JButton  
 		param1=new JTextField();
 		param2=new JTextField();
-		res=new JLabel("Ðåçóëüòàò:");
+		res=new JLabel("Answer:");
 		res2=new JLabel();
 		
 		param1.setBounds(50, 100, 70, 30);
@@ -49,7 +46,6 @@ public class App implements ActionListener{
     public static void main( String[] args ){
     	new App();
     }
-
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		try {
@@ -58,7 +54,5 @@ public class App implements ActionListener{
 		}catch(NumberFormatException e) {
 			res2.setText("Error");
 		}
-	}
-	
-	
+	}	
 }
