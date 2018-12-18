@@ -11,6 +11,6 @@ public class AppTest {
 
     @Test
     public void testApp(){
-        Assert.assertEquals(70,  api.calcArea(14, 5));
+        Assert.assertEquals(561,  api.calcArea(33, 17));
     }
 }
